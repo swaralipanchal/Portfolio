@@ -342,7 +342,7 @@ img{
 /* ======== Active  link =========  */
  .active-link{
     background: linear-gradient(180deg,
-                hsla(var(--first-hue), var(--sat),var(--lig), 1 ),
+                hsla(var(--first-hue), var(--sat),var(--lig), 1),
                 hsla(var(--first-hue), var(--sat),var(--lig), .2)
                 );
     box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat),var(--lig), .4);
@@ -906,16 +906,18 @@ justify-self: center;
 @keyframes animate {
 
     0%{
-        transform: translateY(0) rotate(0deg);
+        transform: translateY(0) ;
+        /* rotate(0deg) */
         opacity: 1;
         border-radius: 0;
         border-radius: 100%;
     }
 
     100%{
-        transform: translateY(-1300px) rotate(720deg);
+        transform: translateY(-1300px) ;
+        /* rotate(720deg) */
         opacity: 0;
-        border-radius: 50%;
+        /* border-radius: 50%; */
         border-radius: 100%;
     }
 
