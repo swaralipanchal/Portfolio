@@ -461,6 +461,7 @@ body.active { overflow: hidden; }
 .navbar-social-link:is(:hover, :focus) { color: var(--citrine); }
 
 .overlay {
+  content: "A";
   position: fixed;
   inset: 0;
   background: hsla(204, 18%, 11%, 0.8);
